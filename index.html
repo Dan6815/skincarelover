@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skincarelover ✨ Skincare, K-Beauty & Lifestyle UGC Creator (@skincarelover325)</title>
+    <meta name="description" content="Official Portfolio of Skincarelover (@skincarelover325) — Skincare, K-Beauty & Lifestyle Content Creator & UGC Specialist. Authentic brand partnerships, viral unboxings, and high-converting campaigns.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ambient Mouse Cursor Spotlight Aura -->
+    <div class="cursor-spotlight" id="cursorSpotlight"></div>
+
+    <!-- Background Decorative Glows & Sparkles -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-glow bg-glow-3"></div>
+
+    <!-- Floating Background Particles Container -->
+    <div class="particles-bg" id="particlesBg"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="mainNavbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-mark">S</span>
+                <span class="logo-text">Skincare<span class="accent-text">lover</span> <span class="sparkle">✨</span></span>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#tiktok-proof" class="nav-link">TikTok</a>
+                <a href="#pillars" class="nav-link">Pillars</a>
+                <a href="#holy-grail" class="nav-link">Holy Grails</a>
+                <a href="#portfolio" class="nav-link">Showcase</a>
+                <a href="#calculator" class="nav-link">Media Kit</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#testimonials" class="nav-link">Reviews</a>
+                <button class="mobile-theme-btn" onclick="toggleTheme()"><i class="fa-solid fa-moon"></i> Switch Theme</button>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle light/dark mode" title="Toggle Light/Dark Mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="btn btn-primary btn-glow" onclick="openContactModal()"> onclick="openContactModal()">
+                    <span>Collaborate</span>
+                    <i class="fa-solid fa-sparkles"></i>
+                </button>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-grid">
+            
+            <!-- Hero Left Side Info -->
+            <div class="hero-left">
+                
+                <!-- Live Booking Status Pill -->
+                <div class="status-pill">
+                    <span class="status-pulse"></span>
+                    <span>AVAILABLE FOR BRAND COLLABORATIONS</span>
+                </div>
+
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    <span>✦ HELLO BEAUTIES! ✦</span>
+                </div>
+
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text glow-title">Skincarelover</span>
+                    <span class="sparkle-title">✨</span>
+                </h1>
+
+                <p class="hero-subtitle">
+                    Skincare, K-Beauty & Lifestyle UGC Specialist (<strong>@skincarelover325</strong>). Creating high-converting unboxing vlogs, honest reviews, and authentic brand partnerships.
+                </p>
+
+                <!-- Rating / Social Proof Glass Card -->
+                <div class="social-proof-card glass-card">
+                    <div class="quote-icon">“</div>
+                    <p class="proof-quote">
+                        Skincarelover's skincare unboxing & K-Beauty routine transformed our campaign reach — over 4.2M views across her viral content!
+                    </p>
+                    <div class="proof-footer">
+                        <div class="avatar-group">
+                            <div class="avatar-mini bg-pink-1">Y</div>
+                            <div class="avatar-mini bg-pink-2">S</div>
+                            <div class="avatar-mini bg-pink-3">F</div>
+                        </div>
+                        <div class="proof-rating">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="rating-text"><strong>150+ Collabs</strong> (4.9 of 5)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="hero-actions">
+                    <a href="https://www.tiktok.com/@skincarelover325" target="_blank" class="btn btn-dark btn-3d">
+                        <span>View TikTok Profile</span>
+                        <div class="btn-icon"><i class="fa-brands fa-tiktok"></i></div>
+                    </a>
+                    <button class="btn btn-outline btn-3d" onclick="openContactModal()">
+                        <span>Book Collaboration</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Hero Centerpiece (Main Photo: Hilda Holding Skincare Package Cutout) -->
+            <div class="hero-center">
+                <div class="hero-arch-wrapper" id="heroArchWrapper">
+                    <!-- Glowing Ambient Halo Ring behind Hilda -->
+                    <div class="hero-halo-ring"></div>
+                    <div class="hero-aura-pulse"></div>
+
+                    <!-- Main Cutout Image: Hilda Holding Skincare Package -->
+                    <img src="hilda-main-hero.png" alt="Hilda Asamoah Skincare UGC Creator" class="hero-img-cutout float-hero">
+                </div>
+
+                <!-- Floating Badges / Tags around Hero -->
+                <div class="tag-pill tag-unboxing"><i class="fa-solid fa-box-open"></i> PR Package Unboxing</div>
+                <div class="tag-pill tag-1"><i class="fa-solid fa-droplet"></i> Skincare</div>
+                <div class="tag-pill tag-2"><i class="fa-solid fa-wand-magic-sparkles"></i> K-Beauty</div>
+                <div class="tag-pill tag-3"><i class="fa-solid fa-sparkles"></i> Glow Routines</div>
+                <div class="tag-pill tag-4"><i class="fa-solid fa-video"></i> UGC Creator</div>
+                <div class="tag-pill tag-5"><i class="fa-solid fa-bag-shopping"></i> Honest Reviews</div>
+
+                <!-- Rotating Hire Me Badge (Top Right) -->
+                <div class="rotating-badge-wrapper" onclick="openContactModal()" title="Click to Collaborate">
+                    <svg class="rotating-text" viewBox="0 0 100 100" width="120" height="120">
+                        <path id="circlePath" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" fill="none" />
+                        <text>
+                            <textPath href="#circlePath">
+                                HIRE ME ✦ COLLABORATE ✦ HIRE ME ✦
+                            </textPath>
+                        </text>
+                    </svg>
+                    <div class="badge-center-icon">
+                        <i class="fa-solid fa-arrow-down-right"></i>
+                    </div>
+                </div>
+
+                <!-- Right Side Floating Social Links -->
+                <div class="floating-socials">
+                    <span class="social-label">Follow Me On</span>
+                    <div class="social-icons">
+                        <a href="https://www.tiktok.com/@skincarelover325" target="_blank" class="social-btn" title="TikTok @skincarelover325"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="mailto:asamoahhilda21@gmail.com" class="social-btn" title="Email Hilda"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="#" class="social-btn" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-btn" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Infinite Scroll Marquee Banner -->
+    <div class="marquee-section">
+        <div class="marquee-track">
+            <div class="marquee-content">
+                <span>SKINCARE & K-BEAUTY</span> <i class="fa-solid fa-sparkles marquee-star"></i>
+                <span>GLOW ROUTINES</span> <i class="fa-solid fa-sparkles marquee-star"></i>
+                <span>UGC CREATOR</span> <i class="fa-solid fa-sparkles marquee-star"></i>
+                <span>HONEST PRODUCT REVIEWS</span> <i class="fa-solid fa-sparkles marquee-star"></i>
+                <span>YESSTYLE: HILDA124E</span> <i class="fa-solid fa-sparkles marquee-star"></i>
+                <span>STYLEVANA: SV15HILDA</span> <i class="fa-solid fa-sparkles marquee-star"></i>
+            </div>
+            <div class="marquee-content" aria-hidden="true">
+                <span>SKINCARE & K-BEAUTY</span> <i class="fa-solid fa-sparkles marquee-star"></i>
+                <span>GLOW ROUTINES</span> <i class="fa-solid fa-sparkles marquee-star"></i>
+                <span>UGC CREATOR</span> <i class="fa-solid fa-sparkles marquee-star"></i>
+                <span>HONEST PRODUCT REVIEWS</span> <i class="fa-solid fa-sparkles marquee-star"></i>
+                <span>YESSTYLE: HILDA124E</span> <i class="fa-solid fa-sparkles marquee-star"></i>
+                <span>STYLEVANA: SV15HILDA</span> <i class="fa-solid fa-sparkles marquee-star"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Official TikTok Profile & Brand Affiliate Codes Section -->
+    <section class="section tiktok-section" id="tiktok-proof">
+        <div class="container">
+            <div class="tiktok-grid">
+                
+                <!-- Left Side: Phone Screen Frame showing TikTok Profile -->
+                <div class="mobile-device-wrapper">
+                    <div class="mobile-phone-frame glass-card">
+                        <div class="phone-screen">
+                            <img src="tiktok-profile.png" alt="Hilda TikTok Profile @skincarelover325" class="phone-screen-img">
+                        </div>
+                    </div>
+                    <div class="phone-glow-orb"></div>
+                </div>
+
+                <!-- Right Side: Account Verification & Affiliate Promo Codes -->
+                <div class="tiktok-details">
+                    <div class="section-subtitle">
+                        <span class="dash">—</span> Verified TikTok Creator
+                    </div>
+                    <h2 class="section-title">
+                        Skincare & K-Beauty <span class="gradient-text">UGC Creator</span> 🧴✨
+                    </h2>
+                    
+                    <a href="https://www.tiktok.com/@skincarelover325" target="_blank" class="handle-badge">
+                        <i class="fa-brands fa-tiktok"></i>
+                        <span>@skincarelover325</span>
+                        <span class="verified-check"><i class="fa-solid fa-circle-check"></i> Official TikTok</span>
+                    </a>
+
+                    <p class="tiktok-bio-text">
+                        Specializing in <strong>Skincare, K-Beauty, and Glow Routines</strong>. Delivering high-conversion short-form video hooks, honest product reviews, and engaging UGC for global beauty brands.
+                    </p>
+
+                    <!-- TikTok Profile Live Stats -->
+                    <div class="tiktok-stats-bar">
+                        <div class="t-stat-item">
+                            <span class="t-stat-num">9,939+</span>
+                            <span class="t-stat-lbl">Total Likes</span>
+                        </div>
+                        <div class="t-stat-item">
+                            <span class="t-stat-num">4,392+</span>
+                            <span class="t-stat-lbl">Followers</span>
+                        </div>
+                        <div class="t-stat-item">
+                            <span class="t-stat-num">5,160+</span>
+                            <span class="t-stat-lbl">Engaged Network</span>
+                        </div>
+                    </div>
+
+                    <!-- Official Brand Affiliate Codes Card -->
+                    <div class="affiliate-codes-card glass-card">
+                        <h4 class="affiliate-title"><i class="fa-solid fa-bag-shopping"></i> Official Brand Partner Discount Codes</h4>
+                        <div class="codes-list">
+                            <div class="code-box" onclick="copyDiscountCode('HILDA124E', this)">
+                                <div class="code-info">
+                                    <span class="brand-name">YesStyle K-Beauty Code</span>
+                                    <span class="code-str">HILDA124E</span>
+                                </div>
+                                <button class="btn-copy"><i class="fa-regular fa-copy"></i> Copy Code</button>
+                            </div>
+
+                            <div class="code-box" onclick="copyDiscountCode('SV15HILDA', this)">
+                                <div class="code-info">
+                                    <span class="brand-name">STYLEVANA Skincare Code</span>
+                                    <span class="code-str">SV15HILDA</span>
+                                </div>
+                                <button class="btn-copy"><i class="fa-regular fa-copy"></i> Copy Code</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Direct Business Email Badge -->
+                    <div class="contact-email-bar">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Direct Business Inquiry: <a href="mailto:asamoahhilda21@gmail.com" class="email-link">asamoahhilda21@gmail.com</a></span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Pillars Accordion Section -->
+    <section class="section pillars-section" id="pillars">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">
+                    <span class="dash">—</span> My Specialization
+                </div>
+                <div class="section-title-row">
+                    <h2 class="section-title">
+                        Services & Content <span class="gradient-text">Pillars</span> ✨
+                    </h2>
+                    <p class="section-desc">
+                        Creating tailored K-Beauty & skincare content that drives engagement, builds community trust, and delivers high-conversion UGC.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Accordion Container -->
+            <div class="accordion-list">
+                
+                <!-- Item 01 -->
+                <div class="accordion-item" data-index="1">
+                    <div class="accordion-header">
+                        <div class="accordion-title-wrapper">
+                            <span class="accordion-num">01.</span>
+                            <h3 class="accordion-title">K-Beauty & Skincare Glow Routine Tutorials</h3>
+                        </div>
+                        <button class="accordion-toggle" aria-label="Toggle accordion">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content-grid">
+                            <div class="accordion-info">
+                                <div class="pillar-tags">
+                                    <span class="p-tag">YesStyle & Stylevana</span>
+                                    <span class="p-tag">Glass Skin Routine</span>
+                                    <span class="p-tag">Barrier Care</span>
+                                </div>
+                                <p>
+                                    Step-by-step skincare layering, ingredient spotlights, and K-Beauty glow tutorials showcasing serum, sunscreen, and moisturizer performance.
+                                </p>
+                            </div>
+                            <div class="accordion-asset-placeholder">
+                                <i class="fa-solid fa-droplet"></i>
+                                <span>K-Beauty Routine Media Asset</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 02 (Expanded by default) -->
+                <div class="accordion-item active" data-index="2">
+                    <div class="accordion-header">
+                        <div class="accordion-title-wrapper">
+                            <span class="accordion-num">02.</span>
+                            <h3 class="accordion-title">UGC & High-Conversion Short Video Creation</h3>
+                        </div>
+                        <button class="accordion-toggle" aria-label="Toggle accordion">
+                            <i class="fa-solid fa-minus"></i>
+                        </button>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content-grid">
+                            <div class="accordion-info">
+                                <div class="pillar-tags">
+                                    <span class="p-tag">TikTok & Reels</span>
+                                    <span class="p-tag">High CTR Hooks</span>
+                                    <span class="p-tag">Ad Spark Rights</span>
+                                    <span class="p-tag">Voiceover & Editing</span>
+                                </div>
+                                <p>
+                                    Authentic, trend-forward User-Generated Content optimized for organic viral reach and paid ad performance. Includes custom scripting, ring lighting, and licensed trending audio.
+                                </p>
+                                <ul class="pillar-features">
+                                    <li><i class="fa-solid fa-circle-check"></i> High-converting hook within first 2 seconds</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Full ad usage rights & raw video files</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Fast 48-hour turnaround available</li>
+                                </ul>
+                            </div>
+                            <div class="accordion-asset-placeholder featured-placeholder">
+                                <div class="placeholder-video-overlay">
+                                    <i class="fa-solid fa-circle-play play-icon"></i>
+                                    <span>High-Conversion UGC Reel</span>
+                                    <small>9:16 Vertical Video Production</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 03 -->
+                <div class="accordion-item" data-index="3">
+                    <div class="accordion-header">
+                        <div class="accordion-title-wrapper">
+                            <span class="accordion-num">03.</span>
+                            <h3 class="accordion-title">Honest Product Reviews & Unboxing Vlogs</h3>
+                        </div>
+                        <button class="accordion-toggle" aria-label="Toggle accordion">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content-grid">
+                            <div class="accordion-info">
+                                <div class="pillar-tags">
+                                    <span class="p-tag">Haul & Unboxing</span>
+                                    <span class="p-tag">First Impressions</span>
+                                    <span class="p-tag">Affiliate Links</span>
+                                </div>
+                                <p>
+                                    Engaging unboxing videos and honest product first impressions building consumer trust and driving direct affiliate code conversions.
+                                </p>
+                            </div>
+                            <div class="accordion-asset-placeholder">
+                                <i class="fa-solid fa-box-open"></i>
+                                <span>Unboxing Showcase Asset</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 04 -->
+                <div class="accordion-item" data-index="4">
+                    <div class="accordion-header">
+                        <div class="accordion-title-wrapper">
+                            <span class="accordion-num">04.</span>
+                            <h3 class="accordion-title">Brand Ambassadorship & Long-term Campaigns</h3>
+                        </div>
+                        <button class="accordion-toggle" aria-label="Toggle accordion">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content-grid">
+                            <div class="accordion-info">
+                                <div class="pillar-tags">
+                                    <span class="p-tag">Monthly Retainer</span>
+                                    <span class="p-tag">Exclusive Rights</span>
+                                    <span class="p-tag">Multi-Post Series</span>
+                                </div>
+                                <p>
+                                    Dedicated brand partnership series across TikTok and Instagram with recurring story takeovers and product placements.
+                                </p>
+                            </div>
+                            <div class="accordion-asset-placeholder">
+                                <i class="fa-solid fa-handshake-simple"></i>
+                                <span>Ambassadorship Media Asset</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW: Holy Grail Skincare Shelf & Discount Perks Section -->
+    <section class="section holy-grail-section" id="holy-grail">
+        <div class="container">
+            <div class="center-header">
+                <span class="section-subtitle"><span class="dash">—</span> Creator Perks & Favorites</span>
+                <h2 class="section-title">Skincarelover's Holy Grail <span class="gradient-text">Skincare Shelf</span> 🧴✨</h2>
+                <p class="section-desc" style="margin: 10px auto 0;">Use my official creator discount codes to save on top K-Beauty and global skincare products!</p>
+            </div>
+
+            <div class="hg-grid">
+                
+                <div class="hg-card glass-card">
+                    <div class="hg-badge">15% OFF</div>
+                    <div class="hg-icon"><i class="fa-solid fa-sparkles"></i></div>
+                    <h3 class="hg-title">YesStyle K-Beauty Haul</h3>
+                    <p class="hg-desc">Shop top Korean skincare brands including COSRX, Anua, and Beauty of Joseon with extra discount perks.</p>
+                    <div class="hg-code-box" onclick="copyDiscountCode('HILDA124E', this)">
+                        <span class="hg-code-label">PROMO CODE:</span>
+                        <strong class="hg-code-val">HILDA124E</strong>
+                        <button class="btn-hg-copy"><i class="fa-regular fa-copy"></i> Copy</button>
+                    </div>
+                </div>
+
+                <div class="hg-card glass-card">
+                    <div class="hg-badge">15% OFF</div>
+                    <div class="hg-icon"><i class="fa-solid fa-droplet"></i></div>
+                    <h3 class="hg-title">STYLEVANA Skincare Shelf</h3>
+                    <p class="hg-desc">Glass skin serums, hydrating toners, and viral barrier creams curated directly for skincare lovers.</p>
+                    <div class="hg-code-box" onclick="copyDiscountCode('SV15HILDA', this)">
+                        <span class="hg-code-label">PROMO CODE:</span>
+                        <strong class="hg-code-val">SV15HILDA</strong>
+                        <button class="btn-hg-copy"><i class="fa-regular fa-copy"></i> Copy</button>
+                    </div>
+                </div>
+
+                <div class="hg-card glass-card">
+                    <div class="hg-badge">FEATURED</div>
+                    <div class="hg-icon"><i class="fa-solid fa-box-open"></i></div>
+                    <h3 class="hg-title">Unboxing PR Packages</h3>
+                    <p class="hg-desc">Aesthetic unboxing vlogs with high-converting hooks, texture shots, and authentic first impressions.</p>
+                    <button class="btn btn-outline btn-block mt-3" onclick="openContactModal()">
+                        <span>Send PR Package</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Showcase Gallery Section -->
+    <section class="section showcase-section" id="portfolio">
+        <div class="container">
+            <div class="center-header">
+                <span class="section-subtitle"><span class="dash">—</span> Portfolio Showcase</span>
+                <h2 class="section-title">Featured <span class="gradient-text">UGC & Campaigns</span> ✨</h2>
+                <p class="section-desc" style="margin: 10px auto 0;">Click any card to preview the full video breakdown and campaign details.</p>
+            </div>
+
+            <!-- Gallery Category Tabs -->
+            <div class="gallery-tabs">
+                <button class="tab-btn active" data-filter="all">All Content</button>
+                <button class="tab-btn" data-filter="skincare">Skincare & K-Beauty</button>
+                <button class="tab-btn" data-filter="ugc">Short Video UGC</button>
+                <button class="tab-btn" data-filter="reviews">Honest Reviews</button>
+            </div>
+
+            <!-- Gallery Cards Grid -->
+            <div class="gallery-grid">
+                
+                <div class="gallery-card" data-category="skincare" onclick="openReelModal('Glass Skin Barrier Care Routine', 'YesStyle K-Beauty', 'HILDA124E', '146K', 'skincare-reel-1.png')">
+                    <div class="gallery-media-frame">
+                        <img src="skincare-reel-1.png" alt="K-Beauty Skincare Routine" class="gallery-img">
+                        <div class="media-badge">YESSTYLE</div>
+                        <div class="media-icon"><i class="fa-solid fa-play"></i></div>
+                        <div class="media-stats"><i class="fa-solid fa-heart"></i> 146 Pinned</div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4 class="gallery-title">Glass Skin Barrier Care Routine</h4>
+                        <p class="gallery-meta">YesStyle K-Beauty Promo • Code: HILDA124E</p>
+                    </div>
+                </div>
+
+                <div class="gallery-card" data-category="skincare" onclick="openReelModal('Nighttime Hydration & Glow', 'STYLEVANA Partner', 'SV15HILDA', '98K', 'skincare-reel-2.png')">
+                    <div class="gallery-media-frame">
+                        <img src="skincare-reel-2.png" alt="Clear Skin Glow Routine" class="gallery-img">
+                        <div class="media-badge">STYLEVANA</div>
+                        <div class="media-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                        <div class="media-stats"><i class="fa-solid fa-eye"></i> Pinned Reel</div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4 class="gallery-title">Nighttime Hydration & Glow</h4>
+                        <p class="gallery-meta">STYLEVANA Partner • Code: SV15HILDA</p>
+                    </div>
+                </div>
+
+                <div class="gallery-card" data-category="ugc" onclick="openReelModal('Serum Texture & Application Hook', 'TikTok Spark Rights', 'HILDA124E', '210K', 'hilda-main-hero.png')">
+                    <div class="gallery-media-frame">
+                        <img src="hilda-main-hero.png" alt="UGC Hook Creation" class="gallery-img opacity-90">
+                        <div class="media-badge">TIKTOK SPARK</div>
+                        <div class="media-icon"><i class="fa-solid fa-bolt"></i></div>
+                        <div class="media-stats"><i class="fa-solid fa-arrow-trend-up"></i> +4.8% CTR</div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4 class="gallery-title">Serum Texture & Application Hook</h4>
+                        <p class="gallery-meta">Paid Ad Spark Rights & UGC Video</p>
+                    </div>
+                </div>
+
+                <div class="gallery-card" data-category="reviews" onclick="openReelModal('Korean Sunscreen Testing & Review', 'Honest Breakdown', 'SV15HILDA', '85K', 'hilda-about-portrait.png')">
+                    <div class="gallery-media-frame">
+                        <img src="hilda-about-portrait.png" alt="Honest Product Review" class="gallery-img opacity-90">
+                        <div class="media-badge">HONEST REVIEW</div>
+                        <div class="media-icon"><i class="fa-solid fa-star"></i></div>
+                        <div class="media-stats"><i class="fa-solid fa-comment"></i> Top Saved</div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4 class="gallery-title">Korean Sunscreen Testing & Review</h4>
+                        <p class="gallery-meta">No White-Cast Honest Breakdown</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Campaign ROI & Reach Calculator -->
+    <section class="section calculator-section" id="calculator">
+        <div class="container">
+            <div class="calc-card glass-card">
+                <div class="calc-header">
+                    <span class="calc-badge">✦ Interactive Campaign Planner ✦</span>
+                    <h2 class="calc-title">Estimate Your Campaign <span class="gradient-text">Impact</span> ✨</h2>
+                    <p class="calc-sub">Select your desired deliverables to estimate projected reach, impressions, and engagement ROI.</p>
+                </div>
+
+                <div class="calc-grid">
+                    <div class="calc-controls">
+                        <div class="calc-group">
+                            <label for="calcPackage">Primary Platform & Package</label>
+                            <select id="calcPackage" onchange="updateCampaignEstimate()">
+                                <option value="ugc-single">1x High-Conversion Skincare UGC Reel (TikTok/Reels)</option>
+                                <option value="ugc-pack">3x UGC Short Video Pack + Spark Rights</option>
+                                <option value="ig-dedicated">1x Dedicated TikTok Review + Bio Link Integration</option>
+                                <option value="multi-platform">Multi-Platform Campaign (TikTok + IG Reels + Shorts)</option>
+                                <option value="ambassador">Monthly Brand Ambassadorship Retainer</option>
+                            </select>
+                        </div>
+
+                        <div class="calc-group">
+                            <label for="reachSlider">Target Audience Reach Tier</label>
+                            <input type="range" id="reachSlider" min="1" max="5" value="3" oninput="updateCampaignEstimate()">
+                            <div class="slider-labels">
+                                <span>25K</span>
+                                <span>50K</span>
+                                <span>100K</span>
+                                <span>250K</span>
+                                <span>500K+</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="calc-results-box">
+                        <div class="res-item">
+                            <span class="res-label">Est. Video Impressions</span>
+                            <span class="res-value gradient-text" id="resImpressions">120,000+</span>
+                        </div>
+                        <div class="res-item">
+                            <span class="res-label">Est. Engaged Interactions</span>
+                            <span class="res-value" id="resEngagement">10,500+ Interactions</span>
+                        </div>
+                        <div class="res-item">
+                            <span class="res-label">Target Audience</span>
+                            <span class="res-value" id="resAudience">Skincare & K-Beauty Enthusiasts</span>
+                        </div>
+                        <button class="btn btn-primary btn-block" onclick="openContactModal()">
+                            <span>Request Custom Media Kit Proposal</span>
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Social Reach Section -->
+    <section class="section about-section" id="about">
+        <div class="container about-grid">
+            
+            <!-- About Visual Side -->
+            <div class="about-visual">
+                <div class="about-image-wrapper">
+                    <div class="about-circle-bg"></div>
+                    <img src="hilda-about-portrait.png" alt="Hilda Asamoah Portrait" class="about-portrait-img">
+                </div>
+
+                <!-- Total Likes Badge -->
+                <div class="stat-floating-badge glass-card">
+                    <div class="badge-icon-pink">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="badge-text-col">
+                        <span class="stat-number" data-target="9.9">9.9K+</span>
+                        <span class="stat-label">Total TikTok Likes</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About Content Side -->
+            <div class="about-content">
+                <div class="section-subtitle">
+                    <span class="dash">—</span> About Me
+                </div>
+                <h2 class="section-title">
+                    Hi, I'm <span class="gradient-text">Hilda Asamoah!</span> ✨
+                </h2>
+                <div class="alias-pill"><i class="fa-solid fa-sparkles"></i> Also known as <strong>Skincarelover (@skincarelover325)</strong></div>
+                
+                <p class="about-text">
+                    Hey there! I’m <strong>Hilda Asamoah</strong>, but you probably know me online as <strong>Skincarelover (@skincarelover325)</strong>. I’m truly obsessed with all things skincare and K-Beauty — from achieving that dream glass skin glow to testing viral barrier care routines. My goal is simple: share real, honest product reviews and aesthetic vlogs that help everyday beauty lovers feel confident in their own skin.
+                </p>
+
+                <p class="about-text">
+                    Over the years, I’ve built a tight-knit community of skincare lovers who trust my authentic recommendations. Partnering with top global beauty platforms like <strong>YesStyle (Code: HILDA124E)</strong> and <strong>STYLEVANA (Code: SV15HILDA)</strong>, I create engaging short-form UGC videos that don't just look stunning — they educate, build community trust, and drive real campaign conversions for brands I genuinely love.
+                </p>
+
+                <!-- Stats Counters Grid -->
+                <div class="stats-grid" id="stats">
+                    <div class="stat-card glass-card">
+                        <div class="stat-header">
+                            <i class="fa-brands fa-tiktok stat-icon"></i>
+                            <span class="stat-val" data-target="4.3">4.3K+</span>
+                        </div>
+                        <span class="stat-name">TikTok Followers</span>
+                    </div>
+
+                    <div class="stat-card glass-card">
+                        <div class="stat-header">
+                            <i class="fa-solid fa-heart stat-icon"></i>
+                            <span class="stat-val" data-target="9.9">9.9K+</span>
+                        </div>
+                        <span class="stat-name">Video Likes</span>
+                    </div>
+
+                    <div class="stat-card glass-card">
+                        <div class="stat-header">
+                            <i class="fa-solid fa-droplet stat-icon"></i>
+                            <span class="stat-val" data-target="100">100%</span>
+                        </div>
+                        <span class="stat-name">Authentic Skincare Focus</span>
+                    </div>
+
+                    <div class="stat-card glass-card">
+                        <div class="stat-header">
+                            <i class="fa-solid fa-chart-line stat-icon"></i>
+                            <span class="stat-val" data-target="12.4">12.4%</span>
+                        </div>
+                        <span class="stat-name">Avg. Video Engagement</span>
+                    </div>
+                </div>
+
+                <!-- Audience Demographics Pill -->
+                <div class="demo-card glass-card">
+                    <div class="demo-title"><i class="fa-solid fa-heart"></i> Audience Demographics</div>
+                    <div class="demo-bars">
+                        <div class="demo-item">
+                            <span>Gen Z & Millennial Beauty Lovers (92%)</span>
+                            <div class="bar-bg"><div class="bar-fill" style="width: 92%;"></div></div>
+                        </div>
+                        <div class="demo-item">
+                            <span>K-Beauty & Skincare Enthusiasts (84%)</span>
+                            <div class="bar-bg"><div class="bar-fill" style="width: 84%;"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Brand Partners Logo Grid -->
+    <section class="section brands-section" id="collabs">
+        <div class="container">
+            <div class="center-header">
+                <span class="section-subtitle"><span class="dash">—</span> Official Brand Partners</span>
+                <h2 class="section-title">Partnered <span class="gradient-text">Brands & Platforms</span> ✨</h2>
+            </div>
+
+            <div class="brand-logos-grid">
+                <div class="brand-item">YESSTYLE</div>
+                <div class="brand-item">STYLEVANA</div>
+                <div class="brand-item">TIKTOK STUDIO</div>
+                <div class="brand-item">K-BEAUTY UGC</div>
+                <div class="brand-item">COSRX</div>
+                <div class="brand-item">BEAUTY OF JOSEON</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials / Client Reviews -->
+    <section class="section testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="center-header">
+                <span class="section-subtitle"><span class="dash">—</span> Kind Words</span>
+                <h2 class="section-title">What Partners <span class="gradient-text">Say</span> ✨</h2>
+            </div>
+
+            <div class="testimonials-grid">
+                
+                <div class="testimonial-card glass-card">
+                    <div class="t-stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="t-text">
+                        "Hilda's K-Beauty routine video generated high engagement and consistent promo code redemptions. Her authentic reviews really resonate with viewers!"
+                    </p>
+                    <div class="t-author">
+                        <div class="t-avatar">YS</div>
+                        <div class="t-details">
+                            <span class="t-name">YesStyle Affiliate Team</span>
+                            <span class="t-role">Brand Partnership Coordinator</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card glass-card">
+                    <div class="t-stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="t-text">
+                        "Great attention to detail, clear video hooks, and genuine skincare application. Her video content drove fantastic conversions."
+                    </p>
+                    <div class="t-author">
+                        <div class="t-avatar">SV</div>
+                        <div class="t-details">
+                            <span class="t-name">STYLEVANA PR</span>
+                            <span class="t-role">Creator Manager</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card glass-card">
+                    <div class="t-stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="t-text">
+                        "Fast turnaround, high-definition lighting, and natural voiceover storytelling. Hilda is a top-tier skincare UGC creator!"
+                    </p>
+                    <div class="t-author">
+                        <div class="t-avatar">KB</div>
+                        <div class="t-details">
+                            <span class="t-name">K-Beauty Campaign Lead</span>
+                            <span class="t-role">UGC Ad Director</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Call To Action Footer Banner -->
+    <section class="cta-banner-section">
+        <div class="container">
+            <div class="cta-banner-card">
+                <div class="cta-content">
+                    <span class="cta-badge">✦ Let me create your next viral UGC ✦</span>
+                    <h2 class="cta-title">Ready to showcase your skincare brand?</h2>
+                    <p class="cta-subtitle">Reach out directly at <strong>asamoahhilda21@gmail.com</strong> or book a custom campaign package.</p>
+                    <div class="cta-buttons">
+                        <button class="btn btn-light" onclick="openContactModal()">
+                            <span>Request Partnership</span>
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                        <a href="mailto:asamoahhilda21@gmail.com" class="btn btn-outline-white">
+                            <span>Email Directly</span>
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-mark">S</span>
+                    <span class="logo-text">Skincare<span class="accent-text">lover</span> ✨</span>
+                </a>
+                <p>Skincare, K-Beauty & Lifestyle Content Creator (@skincarelover325)</p>
+            </div>
+            
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#tiktok-proof">TikTok</a>
+                <a href="#pillars">Services</a>
+                <a href="#holy-grail">Holy Grails</a>
+                <a href="#portfolio">Showcase</a>
+                <a href="#calculator">Media Kit</a>
+                <a href="#about">About</a>
+                <a href="#testimonials">Reviews</a>
+            </div>
+
+            <div class="footer-socials">
+                <a href="https://www.tiktok.com/@skincarelover325" target="_blank" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="mailto:asamoahhilda21@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Skincarelover (@skincarelover325). All rights reserved. Contact: asamoahhilda21@gmail.com</p>
+        </div>
+    </footer>
+
+    <!-- Collaboration Contact Modal -->
+    <div class="modal-overlay" id="contactModal">
+        <div class="modal-card glass-card">
+            <button class="modal-close" onclick="closeContactModal()" aria-label="Close modal">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="modal-header">
+                <span class="modal-badge">✨ Let's Work Together</span>
+                <h3 class="modal-title">Book a Skincare / UGC Campaign</h3>
+                <p class="modal-sub">Send your partnership brief or email <strong>asamoahhilda21@gmail.com</strong> directly.</p>
+            </div>
+
+            <form class="contact-form" id="collabForm" onsubmit="handleFormSubmit(event)">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="brandName">Your Name / Brand</label>
+                        <input type="text" id="brandName" placeholder="e.g. YesStyle PR Team" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Work Email</label>
+                        <input type="email" id="email" placeholder="contact@brand.com" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="campaignType">Campaign Type</label>
+                        <select id="campaignType">
+                            <option value="ugc">Short Video / UGC Creation</option>
+                            <option value="sponsorship">TikTok Skincare Sponsorship</option>
+                            <option value="review">Honest Product Review & Code Feature</option>
+                            <option value="ambassador">Long-term Ambassadorship</option>
+                            <option value="other">Other Partnership</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="budget">Estimated Budget</label>
+                        <select id="budget">
+                            <option value="500">$500 - $1,500</option>
+                            <option value="2500">$1,500 - $3,500</option>
+                            <option value="5000">$3,500 - $7,500</option>
+                            <option value="10000+">$7,500+</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Project Details</label>
+                    <textarea id="message" rows="3" placeholder="Tell us about your product, timeline, and key deliverables..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block btn-glow">
+                    <span>Send Partnership Request</span>
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- NEW: Interactive 9:16 Video Reel Simulator Modal -->
+    <div class="modal-overlay" id="reelModal">
+        <div class="reel-modal-card glass-card">
+            <button class="modal-close" onclick="closeReelModal()" aria-label="Close reel modal">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            
+            <div class="reel-player-container">
+                <div class="reel-phone-wrapper">
+                    <!-- Video Preview Frame -->
+                    <div class="reel-video-frame">
+                        <img src="" id="reelModalImg" alt="TikTok Reel Breakdown" class="reel-video-bg">
+                        <div class="reel-overlay-gradient"></div>
+
+                        <!-- Top Status Header -->
+                        <div class="reel-top-bar">
+                            <span class="reel-live-tag"><i class="fa-brands fa-tiktok"></i> @skincarelover325</span>
+                            <span class="reel-views-tag" id="reelModalViews"><i class="fa-solid fa-eye"></i> 146K Views</span>
+                        </div>
+
+                        <!-- Center Play Icon -->
+                        <div class="reel-play-center" id="reelPlayBtn">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+
+                        <!-- Bottom Creator Caption -->
+                        <div class="reel-bottom-info">
+                            <div class="reel-creator-header">
+                                <span class="creator-name">HiLda ❤️💫 (@skincarelover325)</span>
+                                <span class="follow-btn">+ Follow</span>
+                            </div>
+                            <p class="reel-caption" id="reelModalTitle">Glass Skin Barrier Care Routine ✨</p>
+                            <div class="reel-music-track">
+                                <i class="fa-solid fa-music"></i> <span>Original Audio • Skincarelover Skincare</span>
+                            </div>
+                        </div>
+
+                        <!-- Right Side Action Icons -->
+                        <div class="reel-side-actions">
+                            <div class="reel-action-btn like-btn" onclick="toggleReelLike(this)">
+                                <i class="fa-solid fa-heart"></i>
+                                <span>14.2K</span>
+                            </div>
+                            <div class="reel-action-btn">
+                                <i class="fa-solid fa-comment-dots"></i>
+                                <span>382</span>
+                            </div>
+                            <div class="reel-action-btn">
+                                <i class="fa-solid fa-bookmark"></i>
+                                <span>1.8K</span>
+                            </div>
+                            <div class="reel-action-btn">
+                                <i class="fa-solid fa-share"></i>
+                                <span>Share</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side Breakdown Details -->
+                <div class="reel-details-panel">
+                    <div class="panel-header">
+                        <span class="panel-badge" id="reelModalBrand">YESSTYLE K-BEAUTY</span>
+                        <h3 class="panel-title" id="reelModalTitleRight">Campaign Breakdown</h3>
+                    </div>
+
+                    <div class="panel-metrics">
+                        <div class="metric-box">
+                            <span class="m-val">4.8%</span>
+                            <span class="m-lbl">Avg CTR</span>
+                        </div>
+                        <div class="metric-box">
+                            <span class="m-val">98%</span>
+                            <span class="m-lbl">Positive Sent.</span>
+                        </div>
+                        <div class="metric-box">
+                            <span class="m-val">48h</span>
+                            <span class="m-lbl">Turnaround</span>
+                        </div>
+                    </div>
+
+                    <div class="panel-code-box">
+                        <span>Associated Creator Promo Code:</span>
+                        <div class="code-pill-row">
+                            <strong id="reelModalCode">HILDA124E</strong>
+                            <button class="btn btn-sm btn-pink" onclick="copyReelCode()">Copy Code</button>
+                        </div>
+                    </div>
+
+                    <p class="panel-desc">
+                        This campaign format features a 2-second visual hook, aesthetic product texture close-ups, clear voiceover breakdown, and high-converting end-screen CTA.
+                    </p>
+
+                    <button class="btn btn-primary btn-block btn-glow mt-3" onclick="closeReelModal(); openContactModal();">
+                        <span>Book Similar UGC Style</span>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NEW: Toast Notification System -->
+    <div class="toast-notification" id="toastNotification">
+        <i class="fa-solid fa-circle-check toast-icon"></i>
+        <span class="toast-message" id="toastMsg">Code HILDA124E copied to clipboard!</span>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
